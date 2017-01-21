@@ -1,0 +1,13 @@
+load clokface.3d facetype
+load clokmin.3d handtype1
+instance facetype face
+instance handtype1 min
+position face 0 0 0
+position min 0 0 0
+position light 0 200 -500
+spin face 0 1 0
+spin min 0 1 2
+label THINGY
+display 1000
+goto THINGY
+end
